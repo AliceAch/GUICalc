@@ -22,7 +22,7 @@ For the future, I realize that adding SDL as a submodule is not a good idea, esp
 ## Building
 If you do not have SDL, SDL_image, and SDL_ttf installed on your system, you'll have to clone the repository with the submodules.
 ```console
-$ git clone --recurse-submodules https://github.com/AliceAch/GUICalculator.git
+$ git clone --recurse-submodules https://github.com/AliceAch/GUICalc.git
 ```
 Otherwise clone the repository without recursing submodules.
 ### Linux/MacOS
