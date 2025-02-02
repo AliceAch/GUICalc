@@ -48,6 +48,7 @@ I know the the code is far from perfect, but it is my first project using SDL an
 4. Trailing zeroes.
 5. Errors are not handled properly.
 6. Large code size
+7. SDL_ttf depends on freetype and it looks for it if it is installed on the system, can fail sometimes on Ubuntu
 
 There are a lot more I would add in the future, but I got bored of working on this project. Some additional features I would add is a history of executed expressions and using mouse clicks to copy results. Instead of storing expressions as string streams, expressions should be stored as a list of tokens (removing the need for a scanner) and piping the expression directly to the parser, this does complicate the rendering however.
 
