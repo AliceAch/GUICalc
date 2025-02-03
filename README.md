@@ -1,3 +1,5 @@
+<base target="_blank">
+
 # GUI Calculator
 ## Description
 A simple 5-function GUI calculator made with SDL2 by me. 

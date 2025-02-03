@@ -21,25 +21,20 @@ namespace GUI
         else if (y > dimensions.y*RENDERSCALE + dimensions.h) inside = false;
         if (!inside)
         {
-            // set alpha modulation
-            //m_texture->setAlpha(255);
             opacity = 255;
         } else
         {
             switch(e->type)
             {
                 case SDL_MOUSEMOTION:
-                    //m_texture->setAlpha(200);
                     opacity = 200;
                 break;
                 case SDL_MOUSEBUTTONDOWN:
                     // calls input()
                     result = funct(id, m_stream);
-                    //m_texture->setAlpha(150);
                     opacity = 150;
                 break;
                 case SDL_MOUSEBUTTONUP:
-                    //m_texture->setAlpha(200);
                     opacity = 200;
             }
         }
